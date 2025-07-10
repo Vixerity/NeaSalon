@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cebda66f-eee5-4e5d-a72e-fe73548ca01f",
+    "first_name": "Kian",
+    "last_name": "Lucso",
+    "allergy": "None",
+    "email": "K-Lucso@gmail.com",
+    "phone_number": "+441223455556",
+    "address": "SL3 7AF"
+  },
+  {
+    "id": "e633526b-3b77-4676-84c0-1330bed32a1c",
+    "first_name": "Aidan",
+    "last_name": "Kaye",
+    "allergy": "None",
+    "email": "A-Kaye@gmail.com",
+    "phone_number": "+4412345678910",
+    "address": "SL3 9DR"
+  },
+  {
+    "id": "c9d04a28-3460-4859-b13d-08d3b06a6fed",
+    "first_name": "David",
+    "last_name": "Johnson",
+    "allergy": "None",
+    "email": "D-Johnson@gmail.com",
+    "phone_number": "+4407256382726383",
+    "address": "SL3 7AF"
+  },
+  {
+    "id": "821e2464-bcbb-4481-a0fa-37bd94699c67",
+    "first_name": "Harry",
+    "last_name": "Burnsum",
+    "allergy": "None",
+    "email": "H-Burnsum@gmail.com",
+    "phone_number": "+4402546736584",
+    "address": "SL3 7AF"
+  }
+]

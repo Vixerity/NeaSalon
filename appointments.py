@@ -2,6 +2,7 @@ import json #Enables better storage and transfer of data.
 import utils #Allows for validation of service.
 import clients #Enables linking of clients and appointments.
 import re #Allows for more efficient validation of code
+import NeaSalon #Allows for the return to the main menu.
 
 def add():
     client = clients.find()

@@ -11,11 +11,9 @@ def add():
          allergy = "None"
     email_pattern = r"^[\w\.-]+@[\w\.-]+\.\w+$" #Had to look up regex pattern to Validate Email.
     email = utils.validate("Enter your email: ", lambda x: re.match(email_pattern, x) is not None)
-
     phone_pattern = r"^\s*\d{10,15}\s*$" #Had to look up regex pattern to Validate Phone Number.
     raw_phone = utils.validate("Enter your phone number: +44 ", lambda x: re.match(phone_pattern, x.replace(" ", "")) is not None)
     phone_number = "+44" + raw_phone.replace(" ", "")
-
     address = utils.validate("Address: ", lambda x: x != "")
     id = uuid.uuid4() #Assigns an ID to the clients, to enable appointment linking.
     clients.append({"id": str(id), "first_name": first_name, "last_name": last_name,"allergy": allergy,"email": email, "phone_number": phone_number,"address": address })

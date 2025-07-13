@@ -4,5 +4,11 @@
     "date": "13/09",
     "time": "11:50",
     "service": "Hair Cut"
+  },
+  {
+    "client_id": "e633526b-3b77-4676-84c0-1330bed32a1c",
+    "date": "31/12/2025",
+    "time": "12:30",
+    "service": "Haircut"
   }
 ]
